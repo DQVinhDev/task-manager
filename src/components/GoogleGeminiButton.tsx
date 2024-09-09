@@ -6,7 +6,7 @@ const GoogleGeminiButton: React.FC = () => {
   const [answer, setAnswer] = useState<string>(""); // Câu trả lời từ API
   const [loading, setLoading] = useState<boolean>(false); // Trạng thái loading
 
-  const apiKey = process.env.REACT_APP_GOOGLE_API_KEY || ""; // Google API Key từ biến môi trường
+  const apiKey = "AIzaSyBQ57Af2mg0vi_3WKdYwPFJ49JVTY2s9ZU"; // Google API Key từ biến môi trường
 
   const askGemini = async () => {
     setLoading(true); // Bắt đầu loading
