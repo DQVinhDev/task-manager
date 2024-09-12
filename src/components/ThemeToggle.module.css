@@ -1,0 +1,31 @@
+.themeToggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 60px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+  outline: none;
+  padding: 2px;
+}
+
+.themeToggle.dark {
+  background-color: #333;
+}
+
+.toggleThumb {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.dark .toggleThumb {
+  transform: translateX(30px);
+  background-color: #f0f0f0;
+}

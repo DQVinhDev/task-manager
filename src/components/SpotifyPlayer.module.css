@@ -1,0 +1,77 @@
+.spotifyPlayer {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.searchForm {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.searchInput {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+.searchButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #1db954;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.trackList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.trackItem {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.trackImage {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.trackInfo {
+  flex-grow: 1;
+}
+
+.trackInfo h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.trackInfo p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.playButton {
+  padding: 5px 10px;
+  background-color: #1db954;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.audioPlayer {
+  width: 100%;
+  margin-top: 20px;
+}

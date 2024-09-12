@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .App-logo {
@@ -35,4 +36,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Khoảng cách giữa các nút */
+  margin-bottom: 20px;
+}
+
+.light-theme {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.dark-theme {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.dark-theme a {
+  color: #61dafb;
+}
+
+.dark-theme button {
+  background-color: #4a4a4a;
+  color: #ffffff;
+}
+
+.dark-theme input {
+  background-color: #4a4a4a;
+  color: #ffffff;
+  border-color: #666666;
 }
