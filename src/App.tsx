@@ -14,6 +14,7 @@ import ThemeToggle from "./components/ThemeToggle";
 import Movie from "./components/Movie";
 import MovieDetail from "./components/MovieDetail";
 import "./App.css";
+import 'react-big-calendar/lib/css/react-big-calendar.css';
 
 interface UnsplashImage {
   id: string;
